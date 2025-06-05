@@ -35,7 +35,8 @@ class Waiter implements RestaurantEmployee{
 // divide a interface in such small parts , so that a implementing class doesn't implement unnecessary functions
 
 
-interface WaiterInterface{
+
+interface WaiterInterface  {
     void serveCustomer();
     void takeOrders();
 }
